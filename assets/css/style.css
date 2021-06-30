@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+
+/* CSS Reset */
+* { margin: 0; padding: 0; }
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/* Home section*/
+#home {
+  height: 100vh;
+  background: #333;
+  color: #ccc;
+}
+
+/* Logo top left of Home */
+aside {
+  padding: 15px 20px;
+  line-height: 17px;
+  text-align: left;
+  letter-spacing: 5px;
+}
+
+/* Centered gradient box */
+#home figure {
+  width: 210px;
+  height: 190px;
+  padding: 10px;
+  margin: calc(50vh - 190px/*Gradient box height*/ - 20px/*Nav bottom margin*/) auto;
+  border-radius: 5px;
+  font-family: 'Gilda Display', serif;
+  font-size: 56px;
+  background-image: linear-gradient(to top right, #8507e1, #3dc8d5);
+}
+
+#home figure:hover {
+  background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
+}
+
+#home figure>p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+}
+
+/* Navigation bottom right corner of Home */
+nav {
+  text-align: right;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* Projects description */
+#about {
+  margin-top: 180px;
+  margin-left: 80px;
+  padding-bottom: 30vh;
+  background: #fff;
+  color: #333;
+}
+
+#about h1 {
+  margin-top: -10px;
+  font-family: 'Gilda Display', serif;
+  font-size: 56px;
+}
+
+#about p {
+  padding: 30px 0;
+  font-size: 13px;
+  width: 380px;
+}
+
+/* Projects list */
+#projects figure {
+  width: 500px;
+  display: block;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+#projects img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+#projects h2 {
+  font-family: 'Gilda Display', serif;
+  padding: 20px 0 5px 0;
+}
+
+#projects p {
+  font-size: 12px;
+  text-transform: uppercase;
+}
