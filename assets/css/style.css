@@ -9,7 +9,7 @@ body {
 
 /* Home section*/
 #home {
-  height: 100vh;
+  min-height: 100vh;
   background: #333;
   color: #ccc;
 }
@@ -23,7 +23,7 @@ aside {
 }
 
 /* Centered gradient box */
-#home figure {
+#home div {
   width: 210px;
   height: 190px;
   padding: 10px;
@@ -34,11 +34,11 @@ aside {
   background-image: linear-gradient(to top right, #8507e1, #3dc8d5);
 }
 
-#home figure:hover {
+#home div:hover {
   background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
 }
 
-#home figure>p {
+#home div>p {
   font-family: 'Maven Pro', sans-serif;
   font-size: 14px;
 }
@@ -85,7 +85,7 @@ a:hover {
 }
 
 /* Projects list */
-#projects figure {
+#projects article {
   width: 500px;
   display: block;
   margin: auto;
